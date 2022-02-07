@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW-Observer", "HW-Observer.csproj", "{05D65462-E5C4-431F-AB05-44AB7248D2B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW-ObserverByEvents", "..\HW-ObserverByEvents\HW-ObserverByEvents.csproj", "{281E51D0-15EE-483B-8D48-499E62B4A252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW-ObserverByInterfaces", "..\HW-ObserverByInterfaces\HW-ObserverByInterfaces.csproj", "{667E7FAE-CE85-4633-9271-296422001A0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{05D65462-E5C4-431F-AB05-44AB7248D2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05D65462-E5C4-431F-AB05-44AB7248D2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05D65462-E5C4-431F-AB05-44AB7248D2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281E51D0-15EE-483B-8D48-499E62B4A252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281E51D0-15EE-483B-8D48-499E62B4A252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281E51D0-15EE-483B-8D48-499E62B4A252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281E51D0-15EE-483B-8D48-499E62B4A252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667E7FAE-CE85-4633-9271-296422001A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667E7FAE-CE85-4633-9271-296422001A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667E7FAE-CE85-4633-9271-296422001A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667E7FAE-CE85-4633-9271-296422001A0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
