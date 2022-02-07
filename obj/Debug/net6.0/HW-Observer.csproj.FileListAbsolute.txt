@@ -1,0 +1,4 @@
+C:\Users\Lera\source\repos\HW-Observer\obj\Debug\net6.0\HW-Observer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lera\source\repos\HW-Observer\obj\Debug\net6.0\HW-Observer.AssemblyInfoInputs.cache
+C:\Users\Lera\source\repos\HW-Observer\obj\Debug\net6.0\HW-Observer.AssemblyInfo.cs
+C:\Users\Lera\source\repos\HW-Observer\obj\Debug\net6.0\HW-Observer.csproj.CoreCompileInputs.cache

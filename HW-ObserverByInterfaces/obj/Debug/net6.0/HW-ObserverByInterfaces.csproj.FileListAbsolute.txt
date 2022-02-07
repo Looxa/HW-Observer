@@ -1,0 +1,14 @@
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\obj\Debug\net6.0\HW-ObserverByInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\obj\Debug\net6.0\HW-ObserverByInterfaces.AssemblyInfoInputs.cache
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\obj\Debug\net6.0\HW-ObserverByInterfaces.AssemblyInfo.cs
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\obj\Debug\net6.0\HW-ObserverByInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\bin\Debug\net6.0\HW-ObserverByInterfaces.exe
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\bin\Debug\net6.0\HW-ObserverByInterfaces.deps.json
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\bin\Debug\net6.0\HW-ObserverByInterfaces.runtimeconfig.json
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\bin\Debug\net6.0\HW-ObserverByInterfaces.dll
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\bin\Debug\net6.0\ref\HW-ObserverByInterfaces.dll
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\bin\Debug\net6.0\HW-ObserverByInterfaces.pdb
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\obj\Debug\net6.0\HW-ObserverByInterfaces.dll
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\obj\Debug\net6.0\ref\HW-ObserverByInterfaces.dll
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\obj\Debug\net6.0\HW-ObserverByInterfaces.pdb
+C:\Users\Lera\source\repos\HW-ObserverByInterfaces\obj\Debug\net6.0\HW-ObserverByInterfaces.genruntimeconfig.cache

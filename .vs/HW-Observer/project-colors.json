@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "05d65462-e5c4-431f-ab05-44ab7248d2b6": {
+      "ProjectGuid": "05d65462-e5c4-431f-ab05-44ab7248d2b6",
+      "DisplayName": "HW-Observer",
+      "ColorIndex": 0
+    },
+    "281e51d0-15ee-483b-8d48-499e62b4a252": {
+      "ProjectGuid": "281e51d0-15ee-483b-8d48-499e62b4a252",
+      "DisplayName": "HW-ObserverByEvents",
+      "ColorIndex": 1
+    },
+    "667e7fae-ce85-4633-9271-296422001a0f": {
+      "ProjectGuid": "667e7fae-ce85-4633-9271-296422001a0f",
+      "DisplayName": "HW-ObserverByInterfaces",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
