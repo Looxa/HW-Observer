@@ -3,3 +3,13 @@ C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\obj\Debug\net6.0\HW-O
 C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\obj\Debug\net6.0\HW-ObserverByEvents.AssemblyInfoInputs.cache
 C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\obj\Debug\net6.0\HW-ObserverByEvents.AssemblyInfo.cs
 C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\obj\Debug\net6.0\HW-ObserverByEvents.csproj.CoreCompileInputs.cache
+C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\bin\Debug\net6.0\HW-ObserverByEvents.exe
+C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\bin\Debug\net6.0\HW-ObserverByEvents.deps.json
+C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\bin\Debug\net6.0\HW-ObserverByEvents.runtimeconfig.json
+C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\bin\Debug\net6.0\HW-ObserverByEvents.dll
+C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\bin\Debug\net6.0\ref\HW-ObserverByEvents.dll
+C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\bin\Debug\net6.0\HW-ObserverByEvents.pdb
+C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\obj\Debug\net6.0\HW-ObserverByEvents.dll
+C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\obj\Debug\net6.0\ref\HW-ObserverByEvents.dll
+C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\obj\Debug\net6.0\HW-ObserverByEvents.pdb
+C:\Users\Lera\source\repos\HW-Observer\HW-ObserverByEvents\obj\Debug\net6.0\HW-ObserverByEvents.genruntimeconfig.cache

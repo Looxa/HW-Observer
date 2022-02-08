@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HW_ObserverByEvents;
+using System;
 using System.Collections.Generic;
 using System.Threading;
 
@@ -6,23 +7,17 @@ namespace HWObserver
 {
     public class Program
     {
-     /*   static void Main(string[] args)
+    static void Main(string[] args)
         {
-            // Создаем наблюдаемый объект.
-            var subject = new Subject("Объект 1");
+            var subject = new Observable("Объект 1");
 
-            // Создаем наблюдателя.
-            var observer = new Observer("Наблюдатель 1", subject);
+            var firstObserver = new Observer("Наблюдатель 1", subject);
+            var secondObserver = new Observer("Наблюдатель 2", subject);
 
-            // Вызываем метод наблюдаемого объекта,
-            // который создает событие.
-            // Наблюдатель должен отреагировать на событие и
-            // вывести сообщение на консоль.
-            subject.Save();
+            subject.Work();
 
             Console.ReadLine();
         }
-     */
     } 
 }
 
