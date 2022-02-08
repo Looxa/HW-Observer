@@ -9,22 +9,22 @@ namespace HW_ObserverByInterfaces
 {
     public class Observer : IObserver<bool>
     {
-        private string name;
-        private IDisposable cancellation;
+        private bool _valueOnNext;
+        private IDisposable _subscriber;
 
         public void Subscribe(CanDoSomethind provider)
         {
-            cancellation = provider.Subscribe(this);
+            _subscriber = provider.Subscribe(this);
         }
 
         public void Unsubscribe()
         {
-            cancellation.Dispose();
+            _subscriber.Dispose();
         }
 
         public void OnCompleted()
         {
-            Console.WriteLine("Вход в метод OnCimpleted"); ;
+            Console.WriteLine("Вход в метод OnCompleted");
         }
 
         public void OnError(Exception error)
@@ -34,7 +34,21 @@ namespace HW_ObserverByInterfaces
 
         public void OnNext(bool value)
         {
+            var canDo = value;
             Console.WriteLine("Некая значимая для подписчика работа выполнена");
+            _valueOnNext = canDo;
         }
+        public void ReactionToWork()
+        {
+            if (_valueOnNext == true)
+            {
+                Console.WriteLine("Подписчик реагирует по 1 сценарию");
+            }
+            else
+            {
+                Console.WriteLine("Подписчик реагирует по 2 сценарию");
+            }    
+        }
+
     }
 }

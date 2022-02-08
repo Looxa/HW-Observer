@@ -12,7 +12,10 @@ public class Example
         Observer secondObserver = new Observer();
 
         firstObserver.Subscribe(provider);
+        firstObserver.ReactionToWork();
         secondObserver.Subscribe(provider);
+        secondObserver.ReactionToWork();
+        firstObserver.Unsubscribe();
         secondObserver.Unsubscribe();
         provider.EndOfWork();
     }
