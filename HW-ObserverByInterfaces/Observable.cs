@@ -16,13 +16,21 @@ namespace HW_ObserverByInterfaces
             {
                 observers = new List<IObserver<bool>>();
                 canIDo = false;
+                Console.WriteLine("Некая значимая для подписчика работа выполнена");
             }
+
+            internal void Rise()
+            {
+                foreach (var observer in observers)
+                    observer.OnNext(canIDo);
+                Console.WriteLine("Подписчики уведомлены, следуют действия от подписчиков");
+            }
+
             public IDisposable Subscribe(IObserver<bool> observer)
             {
                 if (!observers.Contains(observer))
                 {
                     observers.Add(observer);
-                    observer.OnNext(canIDo);
                     Console.WriteLine("Добавлен подписчик");
                 }
                 return new Unsubscriber(observers, observer);
@@ -33,7 +41,7 @@ namespace HW_ObserverByInterfaces
                     observer.OnCompleted();
 
                 observers.Clear();
-                Console.WriteLine("Работа закончека");
+                Console.WriteLine("Работа закончека, подписчики отписаны");
             }
         }
 

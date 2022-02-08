@@ -35,10 +35,10 @@ namespace HW_ObserverByInterfaces
         public void OnNext(bool value)
         {
             var canDo = value;
-            Console.WriteLine("Некая значимая для подписчика работа выполнена");
+            Console.WriteLine("Метод оповещения подписчиков работает");
             _valueOnNext = canDo;
         }
-        public void ReactionToWork()
+       /* public void ReactionToWork()    // Используется для работы подписячита. В данной реализации может заменить метод  Rise()
         {
             if (_valueOnNext == true)
             {
@@ -48,7 +48,7 @@ namespace HW_ObserverByInterfaces
             {
                 Console.WriteLine("Подписчик реагирует по 2 сценарию");
             }    
-        }
+        } */
 
     }
 }

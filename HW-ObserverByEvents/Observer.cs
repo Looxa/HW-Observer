@@ -14,6 +14,7 @@ namespace HW_ObserverByEvents
         {
             _nameOfSubscriber = nameOfSubscriber;
             subject.OnSaved += ReactionToEvent;
+            Console.WriteLine("Добавлен подписчик");
         }
 
 

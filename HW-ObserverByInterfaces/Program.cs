@@ -10,13 +10,10 @@ public class Example
         CanDoSomethind provider = new CanDoSomethind();
         Observer firstObserver = new Observer();
         Observer secondObserver = new Observer();
-
         firstObserver.Subscribe(provider);
-        firstObserver.ReactionToWork();
         secondObserver.Subscribe(provider);
-        secondObserver.ReactionToWork();
-        firstObserver.Unsubscribe();
-        secondObserver.Unsubscribe();
+        //secondObserver.ReactionToWork(); Другая реализация реакции подписчика
+        provider.Rise();
         provider.EndOfWork();
     }
 }
